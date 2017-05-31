@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="caf"
+           fetch="http://source.codeaurora.org/quic/la"
+           review="codeaurora.org"/>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="Lineage"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/cm-14.1" />
+	
+  <remote  name="Dragons-CAF"
+           fetch="https://github.com/Dragons-CAF" 
+           revision="n-mr2" /> 
+
+  <default revision="refs/tags/LA.UM.5.8.r1-01900-8x98.0"
+           remote="caf"
+           sync-j="8"
+           sync-c="true"/>
+	
+
+  <!--Dragon's Repos-->
+
+  <project path="art" 					name="platform_art" 					remote="Dragons-CAF" />
+  <project path="bionic" 				name="platform_bionic" 					remote="Dragons-CAF" />
+  <project path="vendor/aosp" 				name="platform_vendor_aosp" 				remote="Dragons-CAF" />
+  <project path="build" 				name="platform_build" 					remote="Dragons-CAF" >
+  <copyfile src="core/root.mk" 				dest="Makefile" />
+  </project>
+  <project path="manifest" 				name="platform_manifest" 				remote="Dragons-CAF" />
+  <project path="build/kati" 				name="platform_build_kati" 				remote="Dragons-CAF" />
+  <project path="device/qcom/sepolicy" 			name="device_qcom_sepolicy" 				remote="Dragons-CAF" />
+  <project path="external/bash" 			name="platform_external_bash" 				remote="Dragons-CAF" />
+  <project path="external/e2fsprogs" 			name="platform_external_e2fsprogs" 			remote="Dragons-CAF" />
+  <project path="external/busybox" 			name="platform_external_busybox" 			remote="Dragons-CAF" />
+  <project path="external/jemalloc" 			name="platform_external_jemalloc" 			remote="Dragons-CAF" />
+  <project path="external/fsck_msdos" 			name="platform_external_fsck_msdos" 			remote="Dragons-CAF" />
+  <project path="external/sqlite" 			name="platform_external_sqlite" 			remote="Dragons-CAF" />
+  <project path="external/toybox" 			name="platform_external_toybox" 			remote="Dragons-CAF" />
+  <project path="hardware/libhardware" 			name="platform_hardware_libhardware" 			remote="Dragons-CAF" />
+  
+  <project path="system/core" 				name="platform_system_core" 				remote="Dragons-CAF" />
+  <project path="system/extras" 			name="platform_system_extras" 				remote="Dragons-CAF" />
+  <project path="system/netd" 				name="platform_system_netd" 				remote="Dragons-CAF" />
+  <project path="system/media" 				name="platform_system_media" 				remote="Dragons-CAF" />
+  <project path="system/vold" 				name="platform_system_vold" 				remote="Dragons-CAF" />
+  <project path="system/sepolicy" 			name="platform_system_sepolicy" 			remote="Dragons-CAF" />
+
+  <!--Dragon's Frameworks-->
+  <project path="frameworks/av" 			name="platform_frameworks_av" 				remote="Dragons-CAF" />
+  <project path="frameworks/base" 			name="platform_frameworks_base" 			remote="Dragons-CAF" />
+  <project path="frameworks/native" 			name="platform_frameworks_native" 			remote="Dragons-CAF" />
+  <project path	="frameworks/support" 			name="platform_frameworks_support" 			remote="Dragons-CAF" />
+
+  <!--Dragon's Packages-->
+  <project path="packages/apps/Settings" 		name="platform_packages_apps_Settings" 			remote="Dragons-CAF" />
+  <project path="packages/apps/SnapdragonCamera" 	name="platform_packages_apps_SnapdragonCamera" 		remote="Dragons-CAF" />
+  <project path="packages/apps/SnapdragonMusic" 	name="platform_packages_apps_SnapdragonMusic" 		remote="Dragons-CAF" />
+  <project path="packages/apps/SnapdragonLauncher" 	name="platform_packages_apps_SnapdragonLauncher" 	remote="Dragons-CAF" />
+  <project path="packages/apps/SnapdragonGallery" 	name="platform_packages_apps_SnapdragonGallery" 	remote="Dragons-CAF" />
+  <project path="packages/inputmethods/LatinIME" 	name="platform_packages_inputmethods_LatinIME" 		remote="Dragons-CAF" />
+  <project path="packages/providers/MediaProvider" 	name="platform_packages_providers_MediaProvider" 	remote="Dragons-CAF" />
+
+  <!-- Import CAF Repos -->
+  <include name="CAF.xml" />
+
+  <!-- Import Lineage Repos -->
+  <include name="Lineage.xml" />
+
+</manifest>
