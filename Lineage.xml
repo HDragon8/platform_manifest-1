@@ -14,7 +14,6 @@
   <project name="android_external_f2fs-tools" 			path="external/f2fs-tools" 			remote="Lineage" />
   <project name="android_external_fuse" 			path="external/fuse" 				remote="Lineage" />
   <project name="android_external_mksh" 			path="external/mksh" 				remote="Lineage" />
-  <project name="android_external_ntfs-3g" 			path="external/ntfs-3g" 			remote="Lineage" />
   <project name="android_external_okhttp" 			path="external/okhttp" 				remote="Lineage" />
   <project name="android_external_skia" 			path="external/skia" 				remote="Lineage" />
   <project name="android_external_libncurses" 			path="external/libncurses" 			remote="Lineage" />
@@ -54,7 +53,6 @@
   <project name="android_vendor_nxp-nfc_opensource_frameworks" 	path="vendor/nxp-nfc/opensource/frameworks" 	remote="Lineage" />
   <project name="android_vendor_nxp-nfc_opensource_libnfc-nci" 	path="vendor/nxp-nfc/opensource/libnfc-nci" 	remote="Lineage" />
   <project name="android_vendor_nxp-nfc_opensource_Nfc" 	path="vendor/nxp-nfc/opensource/Nfc" 		remote="Lineage" />
-  <project name="android_vendor_qcom_opensource_bluetooth" 	path="vendor/qcom/opensource/bluetooth"		remote="Lineage" />
   <project name="android_vendor_qcom_opensource_cryptfs_hw" 	path="vendor/qcom/opensource/cryptfs_hw" 	remote="Lineage" />
   <project name="android_vendor_qcom_opensource_dataservices" 	path="vendor/qcom/opensource/dataservices" 	remote="Lineage" />
   <project name="android_vendor_qcom_opensource_dpm" 		path="vendor/qcom/opensource/dpm" 		remote="Lineage" />

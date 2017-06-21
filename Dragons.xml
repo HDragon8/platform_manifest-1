@@ -35,6 +35,8 @@
   <project path="device/qcom/sepolicy" 			name="device_qcom_sepolicy" 				remote="Dragons-CAF" />
   <project path="external/bash" 			name="platform_external_bash" 				remote="Dragons-CAF" />
   <project path="external/e2fsprogs" 			name="platform_external_e2fsprogs" 			remote="Dragons-CAF" />
+  <project path="external/clang" 			name="platform_external_clang" 				remote="Dragons-CAF" />
+  <project path="external/llvm" 			name="platform_external_llvm" 				remote="Dragons-CAF" />
   <project path="external/busybox" 			name="platform_external_busybox" 			remote="Dragons-CAF" />
   <project path="external/jemalloc" 			name="platform_external_jemalloc" 			remote="Dragons-CAF" />
   <project path="external/fsck_msdos" 			name="platform_external_fsck_msdos" 			remote="Dragons-CAF" />
@@ -42,6 +44,7 @@
   <project path="external/toybox" 			name="platform_external_toybox" 			remote="Dragons-CAF" />
   <project path="hardware/libhardware" 			name="platform_hardware_libhardware" 			remote="Dragons-CAF" />
   
+  <project path="system/bt" 				name="platform_system_bt" 				remote="Dragons-CAF" />
   <project path="system/core" 				name="platform_system_core" 				remote="Dragons-CAF" />
   <project path="system/extras" 			name="platform_system_extras" 				remote="Dragons-CAF" />
   <project path="system/netd" 				name="platform_system_netd" 				remote="Dragons-CAF" />
@@ -51,11 +54,20 @@
 
   <!--Dragon's Frameworks-->
   <project path="frameworks/av" 			name="platform_frameworks_av" 				remote="Dragons-CAF" />
+  <project path="frameworks/compile/libbcc" 		name="platform_frameworks_compile_libbcc" 		remote="Dragons-CAF" /> 
+  <project path="frameworks/compile/slang" 		name="platform_frameworks_compile_slang" 		remote="Dragons-CAF" />
+  <project path="frameworks/compile/mclinker" 		name="platform_frameworks_compile_mclinker"	 	remote="Dragons-CAF" />
   <project path="frameworks/base" 			name="platform_frameworks_base" 			remote="Dragons-CAF" />
   <project path="frameworks/native" 			name="platform_frameworks_native" 			remote="Dragons-CAF" />
-  <project path	="frameworks/support" 			name="platform_frameworks_support" 			remote="Dragons-CAF" />
-
+  <project path="frameworks/support" 			name="platform_frameworks_support" 			remote="Dragons-CAF" />
+  <project path="frameworks/rs" 			name="platform_frameworks_rs"	 			remote="Dragons-CAF" />
+  
   <!--Dragon's Packages-->
+  <project path="packages/apps/Bluetooth" 		name="platform_packages_apps_Bluetooth" 		remote="Dragons-CAF" />
+  <project path="packages/apps/ContactsCommon" 		name="platform_packages_apps_ContactsCommon" 		remote="Dragons-CAF" />
+  <project path="packages/apps/Dialer" 			name="platform_packages_apps_Dialer" 			remote="Dragons-CAF" />
+  <project path="packages/apps/PhoneCommon" 		name="platform_packages_apps_PhoneCommon" 		remote="Dragons-CAF" />
+  <project path="packages/apps/PackageInstaller" 	name="platform_packages_apps_PackageInstaller" 		remote="Dragons-CAF" />
   <project path="packages/apps/Settings" 		name="platform_packages_apps_Settings" 			remote="Dragons-CAF" />
   <project path="packages/apps/SnapdragonCamera" 	name="platform_packages_apps_SnapdragonCamera" 		remote="Dragons-CAF" />
   <project path="packages/apps/SnapdragonMusic" 	name="platform_packages_apps_SnapdragonMusic" 		remote="Dragons-CAF" />
@@ -63,6 +75,13 @@
   <project path="packages/apps/SnapdragonGallery" 	name="platform_packages_apps_SnapdragonGallery" 	remote="Dragons-CAF" />
   <project path="packages/inputmethods/LatinIME" 	name="platform_packages_inputmethods_LatinIME" 		remote="Dragons-CAF" />
   <project path="packages/providers/MediaProvider" 	name="platform_packages_providers_MediaProvider" 	remote="Dragons-CAF" />
+
+  <!-- Vendors -->
+  <project path="vendor/qcom/opensource/bluetooth"	name="android_vendor_qcom_opensource_bluetooth" 	remote="Dragons-CAF" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/sdk/renderscript" 		name="prebuilts_sdk_renderscript" 			remote="Dragons-CAF" 	groups="linux,pdk,tradefed"/>
+  <project path="prebuilts/sdk/tools/linux" 		name="prebuilts_sdk_tools_linux" 			remote="Dragons-CAF" 	groups="linux,pdk,tradefed"/> 
 
   <!-- Import CAF Repos -->
   <include name="CAF.xml" />
