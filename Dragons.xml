@@ -26,6 +26,7 @@
 
   <project path="art" 					name="platform_art" 					remote="Dragons-CAF" />
   <project path="bionic" 				name="platform_bionic" 					remote="Dragons-CAF" />
+  <project path="bootable/recovery"  			name="bootable_recovery" 				remote="Dragons-CAF" />
   <project path="vendor/aosp" 				name="platform_vendor_aosp" 				remote="Dragons-CAF" />
   <project path="build" 				name="platform_build" 					remote="Dragons-CAF" >
   <copyfile src="core/root.mk" 				dest="Makefile" />

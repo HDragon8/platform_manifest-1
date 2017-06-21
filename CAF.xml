@@ -4,7 +4,6 @@
   <!--CodeAuroraForum Repos-->
 
   <project name="platform/abi/cpp" path="abi/cpp"  groups="pdk" />
-  <project name="platform/bootable/recovery" path="bootable/recovery"  groups="pdk" />
   <project name="platform/build/blueprint" path="build/blueprint" groups="pdk,tradefed" />
   <project name="platform/build/soong" path="build/soong" groups="pdk,tradefed" >
     <linkfile dest="Android.bp" src="root.bp" />
@@ -43,7 +42,6 @@
   <project name="platform/external/chromium-libpac" path="external/chromium-libpac" groups="pdk" />
   <project name="platform/external/chromium-trace" path="external/chromium-trace" groups="pdk" />
   <project name="platform/external/chromium-webview" path="external/chromium-webview" groups="pdk" />
-  <project name="platform/external/clang" path="external/clang" groups="pdk" />
   <project name="platform/external/cmockery" path="external/cmockery" groups="pdk" />
   <project name="platform/external/compiler-rt" path="external/compiler-rt" groups="pdk" />
   <project name="platform/external/conscrypt" path="external/conscrypt" />
@@ -169,7 +167,6 @@
   <project name="platform/external/libyuv" path="external/libyuv" groups="pdk,libyuv" />
   <project name="platform/external/littlemock" path="external/littlemock" groups="pdk" />
   <project name="platform/external/lld" path="external/lld" groups="pdk" />
-  <project name="platform/external/llvm" path="external/llvm" />
   <project name="platform/external/ltrace" path="external/ltrace" groups="pdk" />
   <project name="platform/external/lz4" path="external/lz4" groups="pdk" />
   <project name="platform/external/lzma" path="external/lzma" groups="pdk" />
