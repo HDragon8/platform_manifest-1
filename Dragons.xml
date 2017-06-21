@@ -43,6 +43,7 @@
   <project path="external/fsck_msdos" 			name="platform_external_fsck_msdos" 			remote="Dragons-CAF" />
   <project path="external/sqlite" 			name="platform_external_sqlite" 			remote="Dragons-CAF" />
   <project path="external/toybox" 			name="platform_external_toybox" 			remote="Dragons-CAF" />
+  <project path="external/libunwind_llvm" 		name="platform_external_libunwind_llvm" 		remote="Dragons-CAF" />
   <project path="hardware/libhardware" 			name="platform_hardware_libhardware" 			remote="Dragons-CAF" />
   
   <project path="system/bt" 				name="platform_system_bt" 				remote="Dragons-CAF" />

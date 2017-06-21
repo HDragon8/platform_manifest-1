@@ -154,7 +154,6 @@
   <project name="platform/external/libpng" path="external/libpng" groups="pdk" />
   <project name="platform/external/libselinux" path="external/libselinux" groups="pdk" />
   <project name="platform/external/libunwind" path="external/libunwind" groups="pdk" />
-  <project name="platform/external/libunwind_llvm" path="external/libunwind_llvm" groups="pdk" />
   <project name="platform/external/libusb" path="external/libusb" groups="pdk" />
   <project name="platform/external/libusb-compat" path="external/libusb-compat" groups="pdk" />
   <project name="platform/external/libutf" path="external/libutf" groups="pdk" />
