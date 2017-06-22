@@ -84,9 +84,14 @@
   <!-- Vendors -->
   <project path="vendor/qcom/opensource/bluetooth"	name="android_vendor_qcom_opensource_bluetooth" 	remote="Dragons-CAF" />
 
-  <!-- Prebuilts -->
+  <!-- Prebuilts SDK-->
   <project path="prebuilts/sdk/renderscript" 		name="prebuilts_sdk_renderscript" 			remote="Dragons-CAF" 	groups="linux,pdk,tradefed"/>
   <project path="prebuilts/sdk/tools/linux" 		name="prebuilts_sdk_tools_linux" 			remote="Dragons-CAF" 	groups="linux,pdk,tradefed"/> 
+
+  <!-- Prebuilts GCC/CLang-->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.3" 	name="aarch64-linux-android-6.3"	remote="Dragons-CAF" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" 	name="arm-linux-androideabi-6.3"	remote="Dragons-CAF" />
+  <project path="prebuilts/clang/host/linux-x86/5.0" 				name="DragonTC_5.0"			remote="Dragons-CAF" />
 
   <!-- Import CAF Repos -->
   <include name="CAF.xml" />
