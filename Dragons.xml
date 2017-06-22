@@ -63,6 +63,7 @@
   <project path="frameworks/native" 			name="platform_frameworks_native" 			remote="Dragons-CAF" />
   <project path="frameworks/support" 			name="platform_frameworks_support" 			remote="Dragons-CAF" />
   <project path="frameworks/rs" 			name="platform_frameworks_rs"	 			remote="Dragons-CAF" />
+  <project path="frameworks/opt/telephony" 		name="platform_frameworks_opt_telephony"	 	remote="Dragons-CAF" />
   
   <!--Dragon's Packages-->
   <project path="packages/apps/Bluetooth" 		name="platform_packages_apps_Bluetooth" 		remote="Dragons-CAF" />
@@ -77,6 +78,8 @@
   <project path="packages/apps/SnapdragonGallery" 	name="platform_packages_apps_SnapdragonGallery" 	remote="Dragons-CAF" />
   <project path="packages/inputmethods/LatinIME" 	name="platform_packages_inputmethods_LatinIME" 		remote="Dragons-CAF" />
   <project path="packages/providers/MediaProvider" 	name="platform_packages_providers_MediaProvider" 	remote="Dragons-CAF" />
+  <project path="packages/services/Telephony" 		name="platform_packages_services_Telephony" 		remote="Dragons-CAF" />
+  <project path="packages/services/Telecomm" 		name="platform_packages_services_Telecomm" 		remote="Dragons-CAF" />
 
   <!-- Vendors -->
   <project path="vendor/qcom/opensource/bluetooth"	name="android_vendor_qcom_opensource_bluetooth" 	remote="Dragons-CAF" />
