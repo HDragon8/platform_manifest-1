@@ -93,6 +93,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.3" 	name="arm-linux-androideabi-6.3"	remote="Dragons-CAF" />
   <project path="prebuilts/clang/host/linux-x86/5.0" 				name="DragonTC_5.0"			remote="Dragons-CAF" />
 
+  <!-- Theme Interfacer -->
+  <project path="packages/services/ThemeInterfacer" 	name="substratum/interfacer" 				remote="github" 	revision="n-rootless" />
+
   <!-- Import CAF Repos -->
   <include name="CAF.xml" />
 
