@@ -1,0 +1,16 @@
+<img src="https://img.xda-cdn.com/AkwjaPHsyQp53hJ8neZ97I1nW9k=/https%3A%2F%2Fi.imgsafe.org%2F7cf063ccb1.png">
+
+
+Getting Started
+---------------
+
+To initialize your local repository, use this command:
+
+	repo init -u git://github.com/Dragons-CAF/platform_manifest.git -b n-mr2 -m Dragons.xml
+
+
+
+To Sync Dragons Repo:
+
+	repo sync -c -f -j8 --force-sync --no-clone-bundle --no-tags
+
