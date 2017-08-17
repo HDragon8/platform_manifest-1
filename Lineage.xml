@@ -11,14 +11,17 @@
   <project name="android_external_bson" 			path="external/bson" 				remote="Lineage" />
   <project name="android_external_connectivity" 		path="external/connectivity" 			remote="Lineage" />
   <project name="android_external_exfat" 			path="external/exfat" 				remote="Lineage" />
+  <project name="android_external_ffmpeg" 			path="external/ffmpeg" 				remote="Lineage" />
   <project name="android_external_f2fs-tools" 			path="external/f2fs-tools" 			remote="Lineage" />
   <project name="android_external_fuse" 			path="external/fuse" 				remote="Lineage" />
   <project name="android_external_mksh" 			path="external/mksh" 				remote="Lineage" />
+  <project name="android_external_ntfs-3g"			path="external/ntfs-3g"				remote="Lineage" />
   <project name="android_external_okhttp" 			path="external/okhttp" 				remote="Lineage" />
   <project name="android_external_skia" 			path="external/skia" 				remote="Lineage" />
   <project name="android_external_libncurses" 			path="external/libncurses" 			remote="Lineage" />
   <project name="android_external_libnfc-nci" 			path="external/libnfc-nci" 			remote="Lineage" />
   <project name="android_external_libnfc-nxp" 			path="external/libnfc-nxp" 			remote="Lineage" />
+  <project name="android_external_stagefright-plugins"		path="external/stagefright-plugins"		remote="Lineage" />
   <project name="android_external_stlport" 			path="external/stlport" 			remote="Lineage" />
   <project name="android_external_tinyalsa" 			path="external/tinyalsa" 			remote="Lineage" />
   <project name="android_external_tinycompress" 		path="external/tinycompress" 			remote="Lineage" />
