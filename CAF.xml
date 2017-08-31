@@ -13,7 +13,6 @@
   <project name="platform/dalvik" path="dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform/developers/build" path="developers/build" groups="pdk-fs" />
   <project name="platform/developers/demos" path="developers/demos" groups="pdk-fs" />
-  <project name="platform/developers/samples/android" path="developers/samples/android" groups="pdk-fs" />
   <project name="platform/development" path="development" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform/docs/source.android.com" path="docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform/external/aac" path="external/aac" groups="pdk" />
@@ -291,14 +290,12 @@
   <project name="platform/libnativehelper" path="libnativehelper" groups="pdk" />
   <project name="platform/ndk" path="ndk" groups="generic_fs" />
   <project name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator" groups="pdk-fs" />
   <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar" groups="pdk-fs" />
   <project name="platform/packages/apps/Camera" path="packages/apps/Camera" groups="pdk-fs" />
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2" groups="pdk-fs" />
   <project name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" />
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts" />
   <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" groups="pdk-fs" />
   <project name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" groups="pdk-fs" />
   <project name="platform/packages/apps/Email" path="packages/apps/Email" groups="pdk-fs" />
@@ -306,12 +303,9 @@
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" groups="pdk-fs" />
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" groups="pdk-fs" />
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" groups="pdk-fs" />
-  <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" groups="pdk-fs" />
   <project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" groups="pdk-fs" />
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" groups="pdk-fs" />
-  <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging" groups="pdk-fs" />
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" groups="pdk-fs" />
-  <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" groups="pdk-fs" />
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" groups="pdk-fs" />
@@ -321,7 +315,6 @@
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService"  groups="pdk-fs" />
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" groups="pdk-fs" />
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" groups="pdk-fs" />
-  <project name="platform/packages/apps/Stk" path="packages/apps/Stk" groups="apps_stk,pdk-fs" />
   <project name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" />
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag" groups="pdk-fs" />
   <project name="platform/packages/apps/Terminal" path="packages/apps/Terminal" groups="pdk-fs" />
@@ -399,5 +392,4 @@
   <project name="platform/vendor/qcom-opensource/rcs-service" path="vendor/qcom/opensource/rcs-service" />
   <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" />
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" />
-
 </manifest>
