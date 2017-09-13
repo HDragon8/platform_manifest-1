@@ -8,13 +8,13 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  <!--remote  name="Lineage"
+  <remote  name="Lineage"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/cm-14.1" /-->
+           revision="refs/heads/lineage-15.0" />
 	
   <remote  name="Dragons-CAF"
            fetch="https://github.com/Dragons-CAF" 
-           revision="n-mr2" /> 
+           revision="O" /> 
 
   <default revision="refs/tags/LA.UM.6.5.r1-02500-8x96.0"
            remote="caf"
@@ -28,7 +28,7 @@
   <project path="bionic" 				name="platform/bionic" 					remote="caf" />
 
   <!-- Build -->
-  <project  path="build/make" 				name="platform/build" 					remote="caf" >
+  <project  path="build/make" 				name="platform_build" 					remote="Dragons-CAF" >
     <copyfile 	src="core/root.mk" 			dest="Makefile" />
     <linkfile 	src="CleanSpec.mk" 			dest="build/CleanSpec.mk" />
     <linkfile 	src="buildspec.mk.default" 		dest="build/buildspec.mk.default" />
@@ -37,13 +37,18 @@
     <linkfile 	src="target" 				dest="build/target" />
     <linkfile 	src="tools" 				dest="build/tools" />
   </project>
-  <project path="build/kati" 				name="platform/build/kati" 				remote="caf" />
+  <project path="build/kati" 				name="platform_build_kati" 				remote="Dragons-CAF" />
 
-  <project path="build/soong" 				name="platform/build/soong" 				remote="caf" >
+  <project path="build/soong" 				name="platform_build_soong" 				remote="Dragons-CAF" >
     <linkfile 	src="root.bp" 				dest="Android.bp" />
     <linkfile 	src="bootstrap.bash" 			dest="bootstrap.bash" />
   </project>
 
+  <project path="build/blueprint" 			name="platform_build_blueprint" 			remote="Dragons-CAF" />
+
   <!-- Import CAF Repos -->
   <include name="CAF.xml" />
+
+  <!-- Import Lineage HALs -->
+  <include name="Lineage.xml" />
 </manifest>
