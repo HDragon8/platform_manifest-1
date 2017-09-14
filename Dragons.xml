@@ -24,8 +24,8 @@
 
   <!--Dragon's Repos-->
 
-  <project path="art" 					name="platform/art" 					remote="caf" />
-  <project path="bionic" 				name="platform/bionic" 					remote="caf" />
+  <project path="art" 					name="platform_art" 					remote="Dragons-CAF" />
+  <project path="bionic" 				name="platform_bionic" 					remote="Dragons-CAF" />
 
   <!-- Build -->
   <project  path="build/make" 				name="platform_build" 					remote="Dragons-CAF" >
@@ -45,6 +45,12 @@
   </project>
 
   <project path="build/blueprint" 			name="platform_build_blueprint" 			remote="Dragons-CAF" />
+ 
+  <project path="hardware/interfaces" 			name="platform_hardware_interfaces" 			remote="Dragons-CAF" 		revision="O-AOSP" />
+  <project path="system/bt" 				name="platform_system_bt" 				remote="Dragons-CAF" 		revision="O-AOSP" />
+  <project path="system/core" 				name="platform_system_core" 				remote="Dragons-CAF" />
+  <project path="system/vold" 				name="platform_system_vold" 				remote="Dragons-CAF" />
+  <project path="system/sepolicy" 			name="platform_system_sepolicy" 			remote="Dragons-CAF" />
 
   <!-- Import CAF Repos -->
   <include name="CAF.xml" />
